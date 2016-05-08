@@ -9,7 +9,6 @@ class SearchBar extends React.Component {
 
 		this.state = { term: '' };
 
-
 		this.onInputChange = this.onInputChange.bind(this);
 		this.onFormSubmit = this.onFormSubmit.bind(this);
 	}
